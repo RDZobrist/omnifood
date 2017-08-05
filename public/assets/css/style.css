@@ -163,7 +163,7 @@ section {
 /*+++++ Links ++++++*/
 a:link,
 a:active{
-	color:#e67e22;
+	 color:#e67e22; 
 	text-decoration: none;
 	padding-bottom: 1px;
 	border-bottom: 1px solid #e67e22;
@@ -221,7 +221,7 @@ a:visited {
 .btn-ghost:link,
 .btn-ghost:visited {
 	border: 1px solid #e67e22;
-	color: #fff;
+	 color: #e67e22; 
 }
 
 
