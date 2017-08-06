@@ -2,8 +2,11 @@
 <html lang="en">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Omnifood is a premium food delivery service with the mission to bring affordable and healty meals to as many people as possible.">
 
-    <meta name="viewport" content="width=device-width, initial-sacel=1.0">
+
     <link rel="stylesheet" type="text/css" href="../openSource-resources/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="../openSource-resources/css/Grid.css">
     <link rel="stylesheet" href="../openSource-resources/css/ionicons.min.css">
@@ -12,6 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../public/assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="../public/assets/css/queries.css">
+    <link rel="stylesheet" type="text/css" href="../openSource-resources/css/animate.css">
+
 
 
     <title>Omnifood</title>
@@ -21,22 +26,24 @@
     <header>
         <nav>
             <div class="row">
-                <img src="../public/assets/images/logo-white.png" alt="" class="logo">
-                <ul class="main-nav">
-                    <li><a href="#">Food Delivery</a></li>
-                    <li><a href="#">How it Works</a></li>
-                    <li><a href="#">Our Cities</a></li>
-                    <li><a href="#">Sign Up</a></li>
+
+                <img src="assets/images/logo-white.png" alt="Omnifood logo" class="logo">
+                <img src="assets/images/logo.png" alt="Omnifood logo" class="logo-black">
+                <ul class="main-nav js--main-nav">
+                    <li><a href="#features">Food delivery</a></li>
+                    <li><a href="#works">How it works</a></li>
+                    <li><a href="#cities">Our cities</a></li>
+                    <li><a href="#signup">Sign up</a></li>
                 </ul>
             </div>
         </nav>
         <div class="hero-text-box">
             <h1>Goodbye junk food, Hello super healthy meals</h1>
-            <a href="" class="btn btn-full">I'm Hungry</a>
-            <a href="" class="btn btn-ghost" <button>Show me more</button></a>
+            <a href="#premium-destination" class="btn btn-full">I'm Hungry</a>
+            <a href="#" class="btn btn-ghost" <button>Show me more</button></a>
         </div>
     </header>
-    <section class="features">
+    <section class="features js--section-features" id="features">
         <div class="row">
             <h2>Get food fast &mdash; not fast food</h2>
             <p class="long-copy">
@@ -44,7 +51,7 @@
                 take care of that, we’re really good at it, we promise!
             </p>
         </div>
-        <div class="row">
+        <div class="row js--wp-1">
             <div class="col span-1-of-4 col-box">
                 <i class="ion-ios-infinite-outline icon-big"></i>
                 <h3>Up to 365 days/year</h3>
@@ -83,46 +90,46 @@
     <!--  MEALS SECTION  -->
 
     <section class="section-meals">
-        <ul class="meals-gallery clearfix">
+        <ul class="meals-showcase clearfix">
             <li>
-                <figure class="individual-meal-photo">
+                <figure class="meal-photo">
                     <img src="assets/images/1.jpg" alt="Korean bibimbap with egg and vegetables">
                 </figure>
             </li>
             <li>
-                <figure class="individual-meal-photo">
+                <figure class="meal-photo">
                     <img src="assets/images/2.jpg" alt="Simple italian pizza with cherry tomatoes">
                 </figure>
             </li>
             <li>
-                <figure class="individual-meal-photo">
+                <figure class="meal-photo">
                     <img src="assets/images/3.jpg" alt="Chicken breast steak with vegetables">
                 </figure>
             </li>
             <li>
-                <figure class="individual-meal-photo">
+                <figure class="meal-photo">
                     <img src="assets/images/4.jpg" alt="Autumn pumpkin soup">
                 </figure>
             </li>
         </ul>
-        <ul class="meals-gallery clearfix">
+        <ul class="meals-showcase clearfix">
             <li>
-                <figure class="individual-meal-photo">
+                <figure class="meal-photo">
                     <img src="assets/images/5.jpg" alt="Paleo beef steak with vegetables">
                 </figure>
             </li>
             <li>
-                <figure class="individual-meal-photo">
+                <figure class="meal-photo">
                     <img src="assets/images/6.jpg" alt="Healthy baguette with egg and vegetables">
                 </figure>
             </li>
             <li>
-                <figure class="individual-meal-photo">
+                <figure class="meal-photo">
                     <img src="assets/images/7.jpg" alt="Burger with cheddar and bacon">
                 </figure>
             </li>
             <li>
-                <figure class="individual-meal-photo">
+                <figure class="meal-photo">
                     <img src="assets/images/8.jpg" alt="Granola with cherries and strawberries">
                 </figure>
             </li>
@@ -130,43 +137,43 @@
     </section>
 
     <!--Section Steps  -->
-    <section class="section-steps">
+    <section class="section-steps" id="works">
         <div class="row">
-            <h2>How is works &mdash; Simple as 1, 2, 3</h2>
+            <h2>How it works &mdash; Simple as 1, 2, 3</h2>
         </div>
         <div class="row">
             <div class="col span-1-of-2 steps-box">
-                <img src="assets/images/app-iphone.png" alt="Omnifood app on Iphone" class="app-screen">
+                <img src="assets/images/app-iphone.png" alt="Omnifood app on Iphone" class="app-screen js--wp-2">
             </div>
             <div class="col span-1-of-2 steps-box">
-                <div class="how-it-works-step">
+                <div class="works-step">
                     <div>1</div>
                     <p>Choose the subscription plan that best fits your needs and sign up today.
                     </p>
                 </div>
-                <div class="how-it-works-step">
+                <div class="works-step">
                     <div>2</div>
                     <p>Order your delicious meal using our mobile app or website. Or you can even call us!
                     </p>
                 </div>
-                <div class="how-it-works-step">
+                <div class="works-step">
                     <div>3</div>
                     <p>Enjoy your meal after less than 20 minutes. See you the next time!
                     </p>
                 </div>
 
-                <a href="#" class="button-app"><img src="assets/images/download-app.png" alt="App store button"></a>
-                <a href="#" class="button-app"><img src="assets/images/download-app-android.png" alt="Play store button"></a>
+                <a href="#" class="btn-app"><img src="assets/images/download-app.png" alt="App store button"></a>
+                <a href="#" class="btn-app"><img src="assets/images/download-app-android.png" alt="Play store button"></a>
 
             </div>
         </div>
     </section>
-
-    <section class="section-cities">
+<!-- SECTION CITIES --> 
+    <section class="section-cities" id="cities">
         <div class="row">
             <h2>We're currently in these cities</h2>
         </div>
-        <div class="row">
+        <div class="row js--wp-3">
             <div class="col span-1-of-4 col-box">
                 <img href="#" src="assets/images/lisbon-3.jpg" alt="Lisbon">
                 <h3>Lisbon</h3>
@@ -228,7 +235,7 @@
             </div>
         </div>
     </section>
-
+<!--SECTION TESTIMONIALS  -->
     <section class="section-testimonials">
 
         <h2>Our customers can't live without us.</h2>
@@ -258,14 +265,14 @@
             </div>
         </div>
     </section>
-
-    <section class="section-plans">
+<!--SECTION PLANS  -->
+    <section class="section-plans js--section-plans"  id="premium-destination">
         <div class="row">
             <h2>Start eating healthy today</h2>
         </div>
         <div class="row">
             <div class="col span-1-of-3">
-                <div class="plan-box">
+                <div class="plan-box js--wp-4">
                     <div>
                         <h3>Premium</h3>
                         <p class="plan-price">$399<span>/ month</span></p>
@@ -328,7 +335,7 @@
         </div>
     </section>
 
-    <section class="section-form">
+    <section class="section-form" id="signup">
         <div class="row">
             <h2>We're happy to hear from you</h2>
         </div>
@@ -370,7 +377,7 @@
                     <div class="col span-1-of-3">
                         <label for="">Newsletter</label>
                     </div>
-                    <div class="col span-2-of-3"> 
+                    <div class="col span-2-of-3">
                         <input type="checkbox" name="news" id="news" checked><strong>Yes, please</strong></input>
                     </div>
                 </div>
@@ -380,7 +387,7 @@
                         <label for="">Drop us a line</label>
                     </div>
                     <div class="col span-2-of-3">
-                        <textarea rows=""  name="message" placeholder="Your message" cols=""></textarea>
+                        <textarea rows="" name="message" placeholder="Your message" cols=""></textarea>
                     </div>
                 </div>
 
@@ -388,7 +395,7 @@
                     <div class="col span-1-of-3">
                         <label for="">&emsp;</label>
                     </div>
-                    <div class="col span-2-of-3"> 
+                    <div class="col span-2-of-3">
                         <input type="submit" value="Send it!" checked>
                     </div>
                 </div>
@@ -425,12 +432,19 @@
 
 
 </body>
-<!--cross broswser support for old browser versions being able to use html5 and css3 props  -->
-<script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-<script src="cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-<script src="cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"> </script>
+ <!-- cross broswser support for old browser versions being able to use html5 and css3 props   --> -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+ <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script> 
+ <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script> 
+ <script src="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script> 
 
-    
+ <!--external js files  -->
+ <script src="assets/javascript/omni.js"></script>  
+<script src="../openSource-resources/javascript/waypoint.js"></script>  
+
+
+
+
+
 
 </html>
