@@ -722,13 +722,13 @@ footer p {
 .js--wp-2,
 .js--wp-3 {
     opacity: 0;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 650ms;
+    animation-duration: 650ms;
 }
 
 .js--wp-4 {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 650ms;
+    animation-duration: 650ms;
 }
 
 .js--wp-1.animated,
