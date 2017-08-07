@@ -1,6 +1,6 @@
 $(document).ready(function() {
     
-    alert('listening to omni.js')
+    alert('listening to omni.js');
     
     /* For the sticky navigation */
     $('.js--section-features').waypoint(function(direction) {
