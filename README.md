@@ -1,4 +1,4 @@
 # omnifood
 
 getting started:http:
-<a src="//rdzwebdevsolutions.com/omnifood/">Omnifood</a>
+http:////rdzwebdevsolutions.com/omnifood/
