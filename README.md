@@ -1,4 +1,4 @@
 # omnifood
 
-getting started:http:
+getting started:
 http:////rdzwebdevsolutions.com/omnifood/
